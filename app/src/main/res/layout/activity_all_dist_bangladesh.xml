@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    tools:context=".AllDistBangladesh">
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        app:queryHint="Search Here" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/coxsbazar"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/kishorganj"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/kurigram"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/comilla"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/kustia"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/khagrachori"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/khulna"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/gaibandha"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/gazipur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/gopalganj"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/chattogram"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/chandpur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/chapainawabganj"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/chuadanga"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/joypurhat"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/jamalpur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/jhalokathi"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/jhenaidah"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/tangail"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/thakurgaon"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/dhaka"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/dinajpur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/naogaon"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/narail"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/narsingdi"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/natore"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/narayanganj"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/nilphamari"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/netrokona"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/noakhali"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/panchagarh"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/patuakhali"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/pabna"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/pirojpur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/faridpur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/feni"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/bogura"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/barguna"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/barishal"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/bagerhat"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/bandarban"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/brahmanbaria"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/bhola"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/mymensingh"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/magura"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/madaripur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/manikganj"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/munshiganj"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/meherpur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/moulvibazar"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/jashoree"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/rangpur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/rangamati"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/rajbari"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/rajshahi"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/lakshipur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/lalmonirhat"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/shariatpur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/sherpur"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/satkhira"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/sirajganj"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/sylhet"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/sunamganj"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/habiganj"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorGreen"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+
+</LinearLayout>

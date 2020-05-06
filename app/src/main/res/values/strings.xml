@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">ভ্রমন সহায়িকা</string>
+    <string name="cvBangladesh">বাংলাদেশ ভ্রমন</string>
+    <string name="cvForeign">বিদেশ ভ্রমন</string>
+    <string name="cvBlog">ব্লগ</string>
+    <string name="cvPopular">জনপ্রিয়</string>
+    <string name="cvVideo">ভিডিও</string>
+    <string name="cvSaveInfo">সংরক্ষিত তথ্য</string>
+    <string name="coxsbazar">কক্সবাজার</string>
+    <string name="kishorganj">কিশোরগঞ্জ</string>
+    <string name="kurigram">কুড়িগ্রাম</string>
+    <string name="comilla">কুমিল্লা</string>
+    <string name="kustia">কুষ্টিয়া</string>
+    <string name="khagrachori">খাগড়াছড়ি</string>
+    <string name="khulna">খুলনা</string>
+    <string name="gaibandha">গাইবান্ধা</string>
+    <string name="gazipur">গাজীপুর</string>
+    <string name="gopalganj">গোপালগঞ্জ</string>
+    <string name="chattogram">চট্টগ্রাম</string>
+    <string name="chandpur">চাঁদপুর</string>
+    <string name="chapainawabganj">চাঁপাইনবাবগঞ্জ</string>
+    <string name="chuadanga">চুয়াডাঙ্গা</string>
+    <string name="joypurhat">জয়পুরহাট</string>
+    <string name="jamalpur">জামালপুর</string>
+    <string name="jhalokathi">ঝালকাঠি</string>
+    <string name="jhenaidah">ঝিনাইদহ</string>
+    <string name="tangail">টাঙ্গাইল</string>
+    <string name="thakurgaon">ঠাকুরগাঁও</string>
+    <string name="dhaka">ঢাকা</string>
+    <string name="dinajpur">দিনাজপুর</string>
+    <string name="naogaon">নওগাঁ</string>
+    <string name="narail">নড়াইল</string>
+    <string name="narsingdi">নরসিংদি</string>
+    <string name="natore">নাটোর</string>
+    <string name="narayanganj">নারায়ণগঞ্জ</string>
+    <string name="nilphamari">নীলফামারি</string>
+    <string name="netrokona">নেত্রকোনা</string>
+    <string name="noakhali">নোয়াখালি</string>
+    <string name="panchagarh">পঞ্চগড়</string>
+    <string name="patuakhali">পটুয়াখালি</string>
+    <string name="pabna">পাবনা</string>
+    <string name="pirojpur">পিরোজপুর</string>
+    <string name="faridpur">ফরিদপুর</string>
+    <string name="feni">ফেনী</string>
+    <string name="bogura">বগুড়া</string>
+    <string name="barguna">বরগুনা</string>
+    <string name="barishal">বরিশাল</string>
+    <string name="bagerhat">বাগেরহাট</string>
+    <string name="bandarban">বান্দরবান</string>
+    <string name="brahmanbaria">ব্রাহ্মণবাড়িয়া</string>
+    <string name="bhola">ভোলা</string>
+    <string name="mymensingh">ময়মনসিংহ</string>
+    <string name="magura">মাগুরা</string>
+    <string name="madaripur">মাদারিপুর</string>
+    <string name="manikganj">মানিকগঞ্জ</string>
+    <string name="munshiganj">মুন্সিগঞ্জ</string>
+    <string name="meherpur">মেহেরপুর</string>
+    <string name="moulvibazar">মৌলভীবাজার</string>
+    <string name="jashoree">যশোর</string>
+    <string name="rangpur">রংপুর</string>
+    <string name="rangamati">রাঙ্গামাটি</string>
+    <string name="rajbari">রাজবাড়ি</string>
+    <string name="rajshahi">রাজশাহী</string>
+    <string name="lakshipur">লক্ষ্মীপুর</string>
+    <string name="lalmonirhat">লালমনিরহাট</string>
+    <string name="shariatpur">শরিয়তপুর</string>
+    <string name="sherpur">শেরপুর</string>
+    <string name="satkhira">সাতক্ষীরা</string>
+    <string name="sirajganj">সিরাজগঞ্জ</string>
+    <string name="sylhet">সিলেট</string>
+    <string name="sunamganj">সুনামগঞ্জ</string>
+    <string name="habiganj">হবিগঞ্জ</string>
+    <string name="youtube_url">https://www.youtube.com/user/banglarpothe/featured</string>
+
+
+    <string-array name="country_Names">
+        <item>Australia</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Denmark</item>
+        <item>England</item>
+        <item>Finland</item>
+        <item>Ghana</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Pakistan</item>
+    </string-array>
+    <string-array name="country_desc">
+        <item>Australia is beautiful.</item>
+        <item>Bangladesh is beautiful.</item>
+        <item>Bhutan is beautiful.</item>
+        <item>Canada is beautiful.</item>
+        <item>China is beautiful.</item>
+        <item>Denmark is beautiful.</item>
+        <item>England is beautiful.</item>
+        <item>Finland is beautiful.</item>
+        <item>Ghana is beautiful.</item>
+        <item>India is beautiful.</item>
+        <item>Japan is beautiful.</item>
+        <item>Pakistan is beautiful.</item>
+
+    </string-array>
+</resources>
